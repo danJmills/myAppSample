@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
     <title>My App</title>
 </head>
 <body>
-    This is my app!
-    login form
+    <div class="battle-area">
+        <div class="display" id="player"></div>
+        <div class="display" id="enemy"></div>
+    </div>
+
+    <div class="ui">
+        <div class="display" id="player-ui">
+            <button class="btn-style">Health: <br> 20</button> <br>
+            <button class="btn-style" id="weak">Weak</button> <br>
+            <button class="btn-style" id="strong">Strong</button>
+        </div>
+        <div class="display" id="enemy-ui">
+                <button class="btn-style">Health: <br> 10</button>
+        </div>
+    </div>
+
 </body>
 </html>

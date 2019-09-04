@@ -1,0 +1,45 @@
+.display {
+    display: inline-block;
+}
+
+.btn-style {
+    width: 100px;
+    height: 3rem;
+    border: none;
+    background-color: lightcoral;
+}
+
+#player {
+    
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin-right: 30%;
+}
+
+#enemy {
+    
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+#player-ui {
+    margin-right: 30%;
+}
+
+#weak {
+    background-color: aqua;
+}
+
+#weak:hover {
+    background-color: darkblue;
+}
+
+#strong {
+    background-color: orangered;
+}
+
+#strong:hover {
+    background-color: brown;
+}
