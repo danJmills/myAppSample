@@ -1,3 +1,8 @@
+span {
+    position: relative;
+    left: 30px;
+}
+
 .display {
     display: inline-block;
 }
@@ -14,18 +19,24 @@
     width: 100px;
     height: 100px;
     background-color: green;
-    margin-right: 30%;
+    /* margin-right: 10%; */
 }
 
 #enemy {
-    
+    position: relative;
+    left: 98px;
     width: 100px;
     height: 100px;
     background-color: red;
 }
 
 #player-ui {
+    float: left;
     margin-right: 30%;
+}
+
+#enemy-ui {
+    float: center;
 }
 
 #weak {
