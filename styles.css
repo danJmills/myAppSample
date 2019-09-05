@@ -32,11 +32,12 @@ span {
 
 #player-ui {
     float: left;
-    margin-right: 30%;
 }
 
 #enemy-ui {
     float: center;
+    position: relative;
+    left: 190px;
 }
 
 #weak {
